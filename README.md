@@ -15,11 +15,13 @@ cd docker-project
 
 #Clone the repository from github
 git clone https://github.com/Bilal007-dotcom/two-tier-flask-app.git
+
 ls
 cd two-tier-flask-app
 ls
 
 #Create image from docker file
+
 docker build -t flask-app:latest   .
 docker images
 
